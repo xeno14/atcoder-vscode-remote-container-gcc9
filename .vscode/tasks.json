@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "debug build",
+            "command": "g++",
+            "args": [
+                "-std=gnu++17",
+                "-I/opt/boost/gcc/include -L/opt/boost/gcc/lib",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/a.out"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        },
+    ],
+    "version": "2.0.0"
+}
