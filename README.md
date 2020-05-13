@@ -17,4 +17,4 @@ See [System requirement](https://code.visualstudio.com/docs/remote/containers#_s
 1. Start VS Code, run the **Remote-Containers: Open Folder in Container** to open this repository.
 1. It will build a Docker container. It may take a while.
    - If you want to use Boost library, edit *Dockerfile*.
-1. Edit cpp file at the root level of this repository. Press **F5** to run run & debug. Paste problem input into TERMINAL.
+1. Edit cpp file at the root level of this repository. Press **F5** to run & debug. Paste problem input into TERMINAL.
