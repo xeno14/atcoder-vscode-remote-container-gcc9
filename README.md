@@ -1,7 +1,7 @@
 atcoder-vscode-remote-container-gcc9
 ====================================
 
-Codning environment for AtCoder on [Visual Studio Code Remote-Container](https://code.visualstudio.com/docs/remote/containers#_managing-extensions)
+gcc9 codning environment for AtCoder on [Visual Studio Code Remote-Container](https://code.visualstudio.com/docs/remote/containers#_managing-extensions)
 which enables:
 - code completion with IntelliSense
 - easy & quick debugging with GDB - put a breakpoint and press F5!
