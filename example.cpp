@@ -6,9 +6,10 @@ using namespace std;
 int main() {
     string s;
     cin >> s;
-    if (s == "ABC")
-        cout << "ARC" << endl;
-    else
-        cout << "ABC" << endl;
+
+    unordered_map<string, string> next = {
+        {"ABC", "ARC"}, {"ARC", "ABC"}
+    };
+    cout << next[s] << endl;
     return 0;
 }

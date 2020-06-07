@@ -1,7 +1,11 @@
-FROM gcc:9
+FROM ubuntu:20.04
 
-RUN apt update
-RUN apt install -y gdb
+# to avoid tzdata configuration
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt update && apt upgrade -y
+RUN apt install -y build-essential gdb clang-format
+RUN apt install -y git
 
 # Remove comment out if you are to use boost
 
